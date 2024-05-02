@@ -15,9 +15,33 @@
   height:auto;
 }
 .slider .slick-slide {
-  margin:0 10px;/*スライド左右の余白調整*/
+  margin:0 20px;/*スライド左右の余白調整*/
 }
-/*===================================*/
+/*==home00=================================*/
+.home00{
+  position: relative;
+  text-align: center;
+  display: flex;
+}
+.header01{
+  position: absolute;
+  z-index: 1;
+  color:white;
+}
+.catchcopi{
+  height: 100vh;
+  width:100%;
+  position:absolute;
+  z-index: 10;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/*==home=================================*/
 h1{
   padding-left: 80px;
   font-size:17px;
@@ -44,13 +68,14 @@ p{
 }
 
 body{
-  background-color:#cfcfcf;
+  background-color:#ffffff;
   margin:0px;
   padding: 0px;
 }
 .home{
   height:100vh;
   position:relative;
+  
 }
 .tel{
   height:100px;
@@ -74,7 +99,7 @@ body{
 .images{
   height: 610px;
   padding-top: 80px;
-  background-color:#cfcfcf;
+  background-color:#ffffff;
   position: relative;
   z-index: 0;
 }
@@ -90,7 +115,7 @@ body{
     animation-delay: 0s;
   }
   .image:nth-of-type(2) {
-    animation-delay: 10s;
+    animation-delay: 3s;
   }
   .image:nth-of-type(3) {
     animation-delay: 20s;
