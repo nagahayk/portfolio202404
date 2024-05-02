@@ -9,8 +9,7 @@
 }
 
 /*==================================================
-スライダーのためのcss
-===================================*/
+スライダーのためのcss*/
 .slider img {
   width:100%;/*スライダー内の画像を横幅100%に*/
   height:auto;
@@ -18,7 +17,7 @@
 .slider .slick-slide {
   margin:0 10px;/*スライド左右の余白調整*/
 }
-
+/*===================================*/
 h1{
   padding-left: 80px;
   font-size:17px;
@@ -51,13 +50,11 @@ body{
 }
 .home{
   height:100vh;
-
   position:relative;
 }
 .tel{
   height:100px;
   width: 550px;
-  
   position: absolute;
   z-index: 1;
   
@@ -66,16 +63,17 @@ body{
 .title{
   height : 200px;
   width : 200px;
-  background   : white;
+  background-color: rgb(241, 231, 222);
   position: absolute;
   z-index: 1;
-  margin: 0 0 0 auto;
+  right:0px;
+  top:0px;
 }
 
 
 .images{
   height: 610px;
-  padding-top: 75px;
+  padding-top: 80px;
   background-color:#cfcfcf;
   position: relative;
   z-index: 0;
@@ -105,14 +103,13 @@ body{
     100%{ opacity: 0;}
   }
 
-
+/****************************************/
 .contents-box{
   position: relative; 
   width:1000px;
   height:auto;
   margin:0 auto;
   display: flex; /* Flexboxを適用 */
- background-color: antiquewhite;
 }
 .contentsImg{
   left: 0%;
@@ -151,7 +148,19 @@ body{
 .h3{
   font-size:10px;
 }
+/**********************************/
+/*product**************************/
+.products{
+  height:800px;
+  background-color:antiquewhite;
+  position: relative; 
+  width:1000px;
+  margin:0 auto;
+  display: flex; /* Flexboxを適用 */
+  margin-top: 30px;
+}
 
+/*最後のヘッダー*******************/
 .header-list{
     margin-left:auto;
     margin-right:auto;
@@ -167,3 +176,4 @@ a{
     color:inherit;
     text-decoration: none;
 }
+/**********************************/

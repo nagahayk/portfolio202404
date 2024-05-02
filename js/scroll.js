@@ -1,4 +1,4 @@
-gsap.to('.box', { x: 400, scrollTrigger: { trigger: '.contentsImg', start: 'top center-=50%', end: 'bottom center-=100px', markers: true, scrub: true, pin: true, } });
+gsap.to('.box', { x: 400, scrollTrigger: { trigger: '.contentsImg', start: 'top center-=50%', end: 'bottom bottom', markers: true, scrub: true, pin: true, } });
 $('.slider').slick({
   arrows: false,//左右の矢印はなし
   autoplay: true,//自動的に動き出すか。初期値はfalse。
