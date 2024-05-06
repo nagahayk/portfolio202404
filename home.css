@@ -11,7 +11,7 @@
 /*==================================================
 スライダーのためのcss*/
 .slider img {
-  width:100%;/*スライダー内の画像を横幅100%に*/
+  width:100%;
   height:auto;
 }
 .slider .slick-slide {
@@ -24,10 +24,12 @@
   display: flex;
 }
 .header01{
+  width:100%;
   position: absolute;
   z-index: 1;
   color:white;
 }
+
 .catchcopi{
   height: 100vh;
   width:100%;
@@ -107,19 +109,17 @@ body{
 .image{
     position:absolute;
     opacity: 0;
-    animation: change-img-anim 30s infinite;
+    animation: change-img-anim 10s infinite;
     border: 2px solid azure;
 }
 
 .image:nth-of-type(1) {
     animation-delay: 0s;
   }
-  .image:nth-of-type(2) {
-    animation-delay: 3s;
-  }
-  .image:nth-of-type(3) {
-    animation-delay: 20s;
-  }
+.image:nth-of-type(2) {
+  animation-delay: 5s;
+}
+
   
   @keyframes change-img-anim {
     0%{ opacity: 0;}
@@ -170,14 +170,30 @@ body{
   text-align: center;
 }
 
+.t{
+  position:relative;
+}
+
+.text03{
+  position: absolute;
+  right:0px;
+  bottom:-100px;
+}
+
 .h3{
   font-size:10px;
 }
 /**********************************/
 /*product**************************/
-.products{
+.small-title{
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color:#434343
+}
+.access{
   height:800px;
-  background-color:antiquewhite;
+  background-color:rgb(227, 236, 225);
   position: relative; 
   width:1000px;
   margin:0 auto;
@@ -190,6 +206,8 @@ body{
     margin-left:auto;
     margin-right:auto;
     width:700px;
+    height:auto;
+    background-color: aqua;
 }
 
 li {

@@ -1,4 +1,4 @@
-gsap.to('.box', { x: 400, scrollTrigger: { trigger: '.contentsImg', start: 'top center-=50%', end: 'bottom bottom', markers: true, scrub: true, pin: true, } });
+gsap.to('.box', { x: 400, scrollTrigger: { trigger: '.contentsImg', start: 'top center-=50%', end: 'bottom bottom', markers: false, scrub: true, pin: true, } });
 $('.slider').slick({
   arrows: false,//左右の矢印はなし
   autoplay: true,//自動的に動き出すか。初期値はfalse。
@@ -35,7 +35,7 @@ gsap.to('.conImg01', {
     toggleActions: "play none none reverse", // 上スクロールで戻る
     trigger: '.t1',
     start: 'top center',
-    markers: true,
+    markers: false,
   }
 });
 gsap.to('.conImg02', {
@@ -47,7 +47,7 @@ gsap.to('.conImg02', {
     toggleActions: "play none none reverse", // 上スクロールで戻る
     trigger: '.t2',
     start: 'top center',
-    markers: true,
+    markers: false,
   }
 });
 gsap.to('.conImg03', {
@@ -59,7 +59,7 @@ gsap.to('.conImg03', {
     toggleActions: "play none none reverse", // 上スクロールで戻る
     trigger: '.t3',
     start: 'top center',
-    markers: true,
+    markers: false,
   }
 });
 
